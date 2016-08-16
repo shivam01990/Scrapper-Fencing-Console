@@ -8,6 +8,7 @@ namespace FencingScrapper
 {
     class Program
     {
+        [STAThread]
         static void Main(string[] args)
         {
             Helper.AddtoLogFile("=============Import Start " + DateTime.Now + "============");

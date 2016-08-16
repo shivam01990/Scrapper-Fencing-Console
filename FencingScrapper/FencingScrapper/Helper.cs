@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WatiN.Core;
 
 namespace FencingScrapper
 {
@@ -37,6 +38,80 @@ namespace FencingScrapper
         public static string GetSiteURL()
         {
             return @"http://www.manta.com/mb_35_E00D37N7_000/fencing";
+        }
+        #endregion
+
+        #region--Open IE URL--
+        //public static IE OpenIEURL(string URL)
+        //{
+        //    IE ie = new IE();
+        //    bool tryAgain = true;
+        //    while (tryAgain)
+        //    {
+
+        //        try
+        //        {
+        //            ie.GoTo(URL);
+        //            //Settings.WaitForCompleteTimeOut = 480;
+        //            System.Threading.Thread.Sleep(5000);
+        //            tryAgain = false;
+        //        }
+        //        catch (Exception ex)
+        //        {
+
+        //        }
+        //    }
+        //    return ie;
+        //}
+
+        public static string OpenIEURL(string URL)
+        {
+            string _Html = "";
+            IE ie = new IE();
+            bool tryAgain = true;
+            while (tryAgain)
+            {
+
+                try
+                {
+                    ie.GoTo(URL);
+                    //Settings.WaitForCompleteTimeOut = 480;
+                    System.Threading.Thread.Sleep(5000);
+                    tryAgain = false;
+                    _Html = ie.Html;
+                    ie.Close();
+                }
+                catch (Exception ex)
+                {
+
+                }
+            }
+            return _Html;
+        }
+        #endregion
+
+        #region--Forward IE URL--
+        public static IE ForwardIEURL(string URL, IE ie)
+        {
+            bool tryAgain = true;
+            while (tryAgain)
+            {
+
+                try
+                {
+                    ie.Close();
+                    ie = new IE();
+                    ie.GoTo(URL);
+                    // Settings.WaitForCompleteTimeOut = 480;
+                    System.Threading.Thread.Sleep(5000);
+                    tryAgain = false;
+                }
+                catch
+                {
+
+                }
+            }
+            return ie;
         }
         #endregion
     }

@@ -7,4 +7,8 @@ D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\F
 D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\HtmlAgilityPack.dll
 D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\HtmlAgilityPack.pdb
 D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\HtmlAgilityPack.xml
+D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\EPPlus.dll
+D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\WatiN.Core.dll
+D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\EPPlus.xml
+D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\WatiN.Core.xml
 D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\obj\Debug\FencingScrapper.csprojResolveAssemblyReference.cache
