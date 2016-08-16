@@ -20,3 +20,5 @@ D:\Shivam Docs\Scrapper-Fencing-Console\ConsoleAppTest\ConsoleAppTest\bin\Debug\
 D:\Shivam Docs\Scrapper-Fencing-Console\ConsoleAppTest\ConsoleAppTest\bin\Debug\HtmlAgilityPack.xml
 D:\Shivam Docs\Scrapper-Fencing-Console\ConsoleAppTest\ConsoleAppTest\bin\Debug\WatiN.Core.xml
 D:\Shivam Docs\Scrapper-Fencing-Console\ConsoleAppTest\ConsoleAppTest\obj\Debug\ConsoleAppTest.csprojResolveAssemblyReference.cache
+D:\Shivam Docs\Scrapper-Fencing-Console\ConsoleAppTest\ConsoleAppTest\bin\Debug\EPPlus.dll
+D:\Shivam Docs\Scrapper-Fencing-Console\ConsoleAppTest\ConsoleAppTest\bin\Debug\EPPlus.xml
