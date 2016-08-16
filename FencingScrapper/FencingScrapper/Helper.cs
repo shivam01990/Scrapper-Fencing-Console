@@ -83,7 +83,8 @@ namespace FencingScrapper
                 }
                 catch (Exception ex)
                 {
-
+                    ie.Close();
+                    ie = new IE();
                 }
             }
             return _Html;

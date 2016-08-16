@@ -158,3 +158,62 @@ fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
 =============Import Start 8/17/2016 1:02:06 AM============
 fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
 =============Import End 8/17/2016 1:02:39 AM============
+=============Import Start 8/17/2016 1:08:15 AM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+Error:System.InvalidOperationException: A worksheet with this name already exists in the workbook : Finance - 8 17 2016
+   at OfficeOpenXml.ExcelWorksheets.AddSheet(String Name, Boolean isChart, Nullable`1 chartType)
+   at OfficeOpenXml.ExcelWorksheets.Add(String Name)
+   at FencingScrapper.BrowseStates.GrabData() in d:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 53
+=============Import End 8/17/2016 1:08:37 AM============
+=============Import Start 8/17/2016 1:09:03 AM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 8/17/2016 1:10:54 AM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+Error:System.Xml.XPath.XPathException: '(//ul[@class='pagination]')[0]//li' has an invalid token.
+   at MS.Internal.Xml.XPath.XPathParser.CheckToken(LexKind t)
+   at MS.Internal.Xml.XPath.XPathParser.ParsePredicate(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseStep(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseRelativeLocationPath(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseLocationPath(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParsePathExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseUnionExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseUnaryExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseMultiplicativeExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseAdditiveExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseRelationalExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseEqualityExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseAndExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseOrExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseExpresion(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParsePrimaryExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseFilterExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParsePathExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseUnionExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseUnaryExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseMultiplicativeExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseAdditiveExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseRelationalExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseEqualityExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseAndExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseOrExpr(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseExpresion(AstNode qyInput)
+   at MS.Internal.Xml.XPath.XPathParser.ParseXPathExpresion(String xpathExpresion)
+   at System.Xml.XPath.XPathExpression.Compile(String xpath, IXmlNamespaceResolver nsResolver)
+   at System.Xml.XPath.XPathNavigator.Select(String xpath)
+   at HtmlAgilityPack.HtmlNode.SelectNodes(String xpath) in C:\Users\stgrell\Source\Workspaces\htmlagilitypack\Trunk\HtmlAgilityPack\HtmlNode.Xpath.cs:line 37
+   at FencingScrapper.StateProvider.StartScrapFirstPage(String scrapUrl, ExcelWorksheet ws, Int32 RowNum, Int32 ColNum) in d:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\StateProvider.cs:line 23
+   at FencingScrapper.BrowseStates.GrabData() in d:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 84
+=============Import End 8/17/2016 1:11:31 AM============
+=============Import Start 8/17/2016 1:11:34 AM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 8/17/2016 1:12:41 AM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 8/17/2016 1:13:02 AM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 8/17/2016 1:20:11 AM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import End 8/17/2016 1:20:33 AM============
+=============Import Start 8/17/2016 1:20:51 AM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 8/17/2016 1:26:47 AM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
