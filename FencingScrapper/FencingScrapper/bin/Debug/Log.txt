@@ -1,0 +1,76 @@
+=============Import Start 8/15/2016 11:22:21 PM============
+=============Import End 8/15/2016 11:22:21 PM============
+=============Import Start 8/15/2016 11:22:41 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import End 8/15/2016 11:28:51 PM============
+=============Import Start 8/15/2016 11:28:54 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import End 8/15/2016 11:32:31 PM============
+=============Import Start 8/15/2016 11:32:33 PM============
+=============Import Start 8/15/2016 11:34:25 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import End 8/15/2016 11:34:37 PM============
+=============Import Start 8/15/2016 11:35:07 PM============
+=============Import Start 8/15/2016 11:35:46 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import End 8/15/2016 11:37:50 PM============
+=============Import Start 8/15/2016 11:38:00 PM============
+=============Import Start 8/15/2016 11:39:27 PM============
+=============Import Start 8/15/2016 11:39:35 PM============
+=============Import Start 8/15/2016 11:39:45 PM============
+=============Import Start 8/15/2016 11:41:14 PM============
+=============Import Start 8/15/2016 11:43:24 PM============
+=============Import Start 8/15/2016 11:47:19 PM============
+=============Import Start 8/15/2016 11:47:44 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import End 8/15/2016 11:47:51 PM============
+=============Import Start 8/15/2016 11:49:05 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import End 8/15/2016 11:49:20 PM============
+=============Import Start 8/15/2016 11:49:22 PM============
+=============Import Start 8/15/2016 11:52:43 PM============
+Error:System.Net.WebException: The remote server returned an error: (416) Requested Range Not Satisfiable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FencingScrapper.BrowseStates.GrabData() in d:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 23
+=============Import End 8/15/2016 11:54:04 PM============
+=============Import Start 8/15/2016 11:54:35 PM============
+Error:System.ArgumentException: The 'User-Agent' header must be modified using the appropriate property or method.
+Parameter name: name
+   at System.Net.WebHeaderCollection.ThrowOnRestrictedHeader(String headerName)
+   at System.Net.WebHeaderCollection.Add(String name, String value)
+   at FencingScrapper.BrowseStates.GrabData() in d:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 23
+=============Import End 8/15/2016 11:54:49 PM============
+=============Import Start 8/15/2016 11:56:13 PM============
+=============Import Start 8/15/2016 11:59:28 PM============
+=============Import End 8/15/2016 11:59:50 PM============
+=============Import Start 8/15/2016 11:59:53 PM============
+=============Import End 8/16/2016 12:00:06 AM============
+=============Import Start 8/16/2016 12:00:07 AM============
+=============Import End 8/16/2016 12:03:18 AM============
+=============Import Start 8/16/2016 12:03:30 AM============
+=============Import Start 8/16/2016 12:07:28 AM============
+Error:System.Net.WebException: The remote server returned an error: (416) Requested Range Not Satisfiable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FencingScrapper.BrowseStates.GrabData() in d:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 35
+=============Import End 8/16/2016 12:07:39 AM============
+=============Import Start 8/16/2016 12:07:43 AM============
+=============Import Start 8/16/2016 12:17:39 AM============
+=============Import Start 8/16/2016 12:19:15 AM============
+Error:System.ArgumentException: The 'User-Agent' header must be modified using the appropriate property or method.
+Parameter name: name
+   at System.Net.WebHeaderCollection.ThrowOnRestrictedHeader(String headerName)
+   at System.Net.WebHeaderCollection.Set(String name, String value)
+   at System.Net.WebHeaderCollection.set_Item(HttpRequestHeader header, String value)
+   at FencingScrapper.BrowseStates.GrabData() in d:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 35
+=============Import End 8/16/2016 12:21:06 AM============
+=============Import Start 8/16/2016 12:21:08 AM============
+=============Import Start 8/16/2016 12:21:17 AM============
+=============Import Start 8/16/2016 12:25:40 AM============
+=============Import Start 8/16/2016 12:26:36 AM============
+=============Import Start 8/16/2016 12:26:59 AM============
+Error:System.Net.WebException: The remote server returned an error: (416) Requested Range Not Satisfiable.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FencingScrapper.BrowseStates.GrabData() in d:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 36
+=============Import End 8/16/2016 12:31:41 AM============
+=============Import Start 8/16/2016 12:38:50 AM============
+=============Import Start 8/16/2016 12:43:48 AM============

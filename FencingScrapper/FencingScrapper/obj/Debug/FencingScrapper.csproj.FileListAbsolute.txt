@@ -1,1 +1,10 @@
 c:\users\shivam\documents\visual studio 2013\Projects\FencingScrapper\FencingScrapper\bin\Debug\FencingScrapper.exe.config
+D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\FencingScrapper.exe.config
+D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\FencingScrapper.exe
+D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\FencingScrapper.pdb
+D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\obj\Debug\FencingScrapper.exe
+D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\obj\Debug\FencingScrapper.pdb
+D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\HtmlAgilityPack.dll
+D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\HtmlAgilityPack.pdb
+D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\HtmlAgilityPack.xml
+D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\obj\Debug\FencingScrapper.csprojResolveAssemblyReference.cache
