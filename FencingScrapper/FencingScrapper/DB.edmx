@@ -13,6 +13,7 @@
           <Property Name="CompanyName" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Email" Type="nvarchar(max)" />
           <Property Name="State" Type="nvarchar(max)" />
+          <Property Name="ComanyURL" Type="nvarchar(max)" />
         </EntityType>
         <EntityContainer Name="ScraperFencingModelStoreContainer">
           <EntitySet Name="Comany" EntityType="Self.Comany" Schema="dbo" store:Type="Tables" />
@@ -29,6 +30,7 @@
           <Property Name="CompanyName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="State" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ComanyURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityContainer Name="DBEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Comanies" EntityType="Self.Comany" />
@@ -42,6 +44,7 @@
           <EntitySetMapping Name="Comanies">
             <EntityTypeMapping TypeName="ScraperFencingModel.Comany">
               <MappingFragment StoreEntitySet="Comany">
+                <ScalarProperty Name="ComanyURL" ColumnName="ComanyURL" />
                 <ScalarProperty Name="State" ColumnName="State" />
                 <ScalarProperty Name="ComanyID" ColumnName="ComanyID" />
                 <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />

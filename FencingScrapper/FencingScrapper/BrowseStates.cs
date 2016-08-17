@@ -22,7 +22,6 @@ namespace FencingScrapper
                 Helper.AddtoLogFile("fetching data from" + Helper.GetSiteURL());
 
                 string outhtml = Helper.OpenIEURL(Helper.GetSiteURL());
-                //System.Threading.Thread.Sleep(5000);
                 // Write out the HTML text of the body
                 Console.WriteLine(outhtml);
                 

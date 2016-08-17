@@ -23,6 +23,7 @@ namespace FencingScrapper
                         temp.CompanyName = ud.CompanyName;
                         temp.State = ud.State;
                         temp.Email = ud.Email;
+                        temp.ComanyURL = ud.ComanyURL;
                     }
                 }
                 else

@@ -16,27 +16,39 @@ namespace FencingScrapper
         public static void StartScrapFirstPage(string scrapUrl, ExcelWorksheet ws, int RowNum, int ColNum)
         {
             string outhtml = Helper.OpenIEURL(scrapUrl);
-           
+
             HtmlDocument doc = new HtmlDocument();
-           
+
             doc.LoadHtml(outhtml);
 
             int totalPages = 1;
             HtmlNode LastPageNode = doc.DocumentNode.SelectNodes("//ul[@class='pagination']//li//a").LastOrDefault();
-            if (LastPageNode!=null)
+            if (LastPageNode != null)
             {
-               string link =LastPageNode.Attributes["href"].Value;
-               var parsedQuery = HttpUtility.ParseQueryString(link);
-               int.TryParse(parsedQuery[0], out totalPages);
+                string link = LastPageNode.Attributes["href"].Value;
+                var parsedQuery = HttpUtility.ParseQueryString(link);
+                int.TryParse(parsedQuery[0], out totalPages);
             }
-            ws.Cells[RowNum, ColNum].Value = scrapUrl;
-            
+
+            GetCompanyNavigationLink(doc);
+            //ws.Cells[RowNum, ColNum].Value = scrapUrl;
+
         }
 
-        public static List<string> GetCompanyNavigationLink()
+        public static List<Comany> GetCompanyNavigationLink(HtmlDocument doc)
         {
-            List<string> _lstlink = new List<string>();
-            return _lstlink;
+            List<Comany> _lstComapny = new List<Comany>();
+            HtmlNodeCollection collection = doc.DocumentNode.SelectNodes("//ul//li[@class='list-group-item organic-result pln']");
+            foreach (var item in collection)
+            {
+                Comany temp = new Comany();
+                var templink = item.SelectSingleNode("//a[@class='media-heading text-primary h4']");
+                string link = templink.Attributes["href"].Value;
+                temp.ComanyURL = link;
+
+
+            }
+            return _lstComapny;
         }
     }
 }
