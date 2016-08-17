@@ -28,10 +28,15 @@ namespace FencingScrapper
                string link =LastPageNode.Attributes["href"].Value;
                var parsedQuery = HttpUtility.ParseQueryString(link);
                int.TryParse(parsedQuery[0], out totalPages);
-
             }
             ws.Cells[RowNum, ColNum].Value = scrapUrl;
             
+        }
+
+        public static List<string> GetCompanyNavigationLink()
+        {
+            List<string> _lstlink = new List<string>();
+            return _lstlink;
         }
     }
 }
