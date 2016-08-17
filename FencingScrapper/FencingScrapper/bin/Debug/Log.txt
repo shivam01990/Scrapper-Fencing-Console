@@ -1,10 +1,50 @@
-=============Import Start 17-Aug-16 11:59:33 AM============
+=============Import Start 17-Aug-16 12:45:43 PM============
 fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
-=============Import Start 17-Aug-16 11:59:44 AM============
+=============Import Start 17-Aug-16 12:49:02 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 17-Aug-16 12:56:14 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 17-Aug-16 12:59:14 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 17-Aug-16 1:21:16 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 17-Aug-16 1:51:08 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 17-Aug-16 3:07:14 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 17-Aug-16 3:31:19 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 17-Aug-16 3:54:18 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 17-Aug-16 4:16:52 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import End 17-Aug-16 4:17:22 PM============
+=============Import Start 17-Aug-16 4:17:48 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+Error:System.InvalidOperationException: A worksheet with this name already exists in the workbook : Finance - 17-Aug-16
+   at OfficeOpenXml.ExcelWorksheets.AddSheet(String Name, Boolean isChart, Nullable`1 chartType)
+   at OfficeOpenXml.ExcelWorksheets.Add(String Name)
+   at FencingScrapper.BrowseStates.GrabData() in d:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 52
+=============Import End 17-Aug-16 4:18:06 PM============
+=============Import Start 17-Aug-16 4:18:45 PM============
 fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
 Error:System.Runtime.InteropServices.COMException (0x800704A6): Creating an instance of the COM component with CLSID {0002DF01-0000-0000-C000-000000000046} from the IClassFactory failed due to the following error: 800704a6 A system shutdown has already been scheduled. (Exception from HRESULT: 0x800704A6).
    at WatiN.Core.IE.CreateNewIEAndGoToUri(Uri uri, IDialogHandler logonDialogHandler, Boolean createInNewProcess)
    at WatiN.Core.IE..ctor()
    at FencingScrapper.Helper.OpenIEURL(String URL) in d:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\Helper.cs:line 66
    at FencingScrapper.BrowseStates.GrabData() in d:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 24
-=============Import End 17-Aug-16 12:00:16 PM============
+=============Import End 17-Aug-16 4:19:49 PM============
+=============Import Start 17-Aug-16 4:20:00 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+Error:System.Runtime.InteropServices.COMException (0x800704A6): Creating an instance of the COM component with CLSID {0002DF01-0000-0000-C000-000000000046} from the IClassFactory failed due to the following error: 800704a6 A system shutdown has already been scheduled. (Exception from HRESULT: 0x800704A6).
+   at WatiN.Core.IE.CreateNewIEAndGoToUri(Uri uri, IDialogHandler logonDialogHandler, Boolean createInNewProcess)
+   at WatiN.Core.IE..ctor()
+   at FencingScrapper.Helper.OpenIEURL(String URL) in d:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\Helper.cs:line 66
+   at FencingScrapper.BrowseStates.GrabData() in d:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 24
+=============Import End 17-Aug-16 4:20:32 PM============
+=============Import Start 17-Aug-16 4:20:55 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 17-Aug-16 4:22:14 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 17-Aug-16 4:23:20 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing

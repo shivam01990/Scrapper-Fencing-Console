@@ -32,18 +32,18 @@ namespace FencingScrapper
                     int.TryParse(parsedQuery[0], out totalPages);
                 }
 
-                List<Comany> _lstCompany = GetCompanyNavigationLink(doc,State.StateName);
+                //List<Comany> _lstCompany = GetCompanyNavigationLink(doc, State.StateName);
 
-                foreach (Comany item in _lstCompany)
-                {
-                    try
-                    {
-                        DBService.SaveComany(item);
-                    }
-                    catch { }
-                }
+                //foreach (Comany item in _lstCompany)
+                //{
+                //    try
+                //    {
+                //        DBService.SaveComany(item);
+                //    }
+                //    catch { }
+                //}
 
-                for (int i = 2; i < totalPages; i++)
+                for (int i = 2; i <= totalPages; i++)
                 {
                     string pageingscrapurl = State.StateUrl + "?pg=" + i;
                     StartScrapOtherPage(pageingscrapurl, State.StateName);
@@ -54,7 +54,7 @@ namespace FencingScrapper
 
         }
 
-        public static void StartScrapOtherPage(string scrapUrl,string StateName)
+        public static void StartScrapOtherPage(string scrapUrl, string StateName)
         {
             try
             {
@@ -68,12 +68,16 @@ namespace FencingScrapper
                 HtmlNode LastPageNode = doc.DocumentNode.SelectNodes("//ul[@class='pagination']//li//a").LastOrDefault();
                 if (LastPageNode != null)
                 {
-                    string link = LastPageNode.Attributes["href"].Value;
-                    var parsedQuery = HttpUtility.ParseQueryString(link);
-                    int.TryParse(parsedQuery[0], out totalPages);
+                    try
+                    {
+                        string link = LastPageNode.Attributes["href"].Value;
+                        var parsedQuery = HttpUtility.ParseQueryString(link);
+                        int.TryParse(parsedQuery[0], out totalPages);
+                    }
+                    catch { }
                 }
 
-                List<Comany> _lstCompany = GetCompanyNavigationLink(doc,StateName);
+                List<Comany> _lstCompany = GetCompanyNavigationLink(doc, StateName);
 
                 foreach (Comany item in _lstCompany)
                 {
@@ -90,23 +94,47 @@ namespace FencingScrapper
 
         }
 
-        public static List<Comany> GetCompanyNavigationLink(HtmlDocument doc,string StateName)
+        public static List<Comany> GetCompanyNavigationLink(HtmlDocument doc, string StateName)
         {
 
             List<Comany> _lstCompany = new List<Comany>();
             try
             {
                 HtmlNodeCollection collection = doc.DocumentNode.SelectNodes("//ul//li[@class='list-group-item organic-result pln']");
-                foreach (var item in collection)
+                for (int i = 0; i < collection.Count; i++)
                 {
-                    Comany temp = new Comany();
-                    var templink = item.SelectSingleNode("//a[@class='media-heading text-primary h4']");
-                    string link = "http://www.manta.com" + templink.Attributes["href"].Value;
-                    temp.ComanyURL = link;
-                    temp.CompanyName = templink.InnerText;
-                    temp.State = StateName;
-                    GetCompanyEmail(temp);
-                    _lstCompany.Add(temp);
+                    try
+                    {
+                        //var item = collection[i];
+                        string temphtml = collection[i].InnerHtml;
+                        HtmlDocument tempdoc = new HtmlDocument();
+                        tempdoc.LoadHtml(temphtml);
+
+                        Comany temp = new Comany();
+                        var templink = tempdoc.DocumentNode.SelectSingleNode("//a[@class='media-heading text-primary h4']");
+                        string link = "http://www.manta.com" + templink.Attributes["href"].Value;
+                        temp.ComanyURL = link;
+                        temp.CompanyName = templink.InnerText.Replace("\n", "").Trim();
+                        temp.State = StateName;
+                        try
+                        {
+                            var weblink = tempdoc.DocumentNode.SelectSingleNode("//a[@class='text-muted']");
+                            string domainname = weblink.Attributes["href"].Value;
+                            domainname = HttpUtility.UrlDecode(domainname);
+                            if (domainname.Contains("urlverify"))
+                            {
+                                domainname = domainname.Replace("/api/v1/urlverify/", "");
+                                domainname = domainname.Replace("http://", "");
+                                domainname = domainname.Replace("www.", "");
+                                domainname = domainname.Replace("/", "");
+                                temp.Email = "info@" + domainname;
+                            }
+                        }
+                        catch { }
+                        GetCompanyEmail(temp);
+                        _lstCompany.Add(temp);
+                    }
+                    catch { }
 
                 }
             }

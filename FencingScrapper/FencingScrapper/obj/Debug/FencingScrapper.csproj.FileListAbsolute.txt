@@ -32,3 +32,4 @@ D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debu
 D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\HtmlAgilityPack.pdb
 D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\HtmlAgilityPack.xml
 D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\WatiN.Core.xml
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\obj\Debug\FencingScrapper.csprojResolveAssemblyReference.cache
