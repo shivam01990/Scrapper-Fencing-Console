@@ -16,3 +16,19 @@ D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\F
 D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\EntityFramework.xml
 D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\EntityFramework.SqlServer.xml
 D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\obj\Debug\FencingScrapper.csprojResolveAssemblyReference.cache
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\FencingScrapper.exe.config
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\obj\Debug\FencingScrapper.exe
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\obj\Debug\FencingScrapper.pdb
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\FencingScrapper.exe
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\FencingScrapper.pdb
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\EntityFramework.dll
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\EntityFramework.SqlServer.dll
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\EPPlus.dll
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\HtmlAgilityPack.dll
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\WatiN.Core.dll
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\EntityFramework.xml
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\EntityFramework.SqlServer.xml
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\EPPlus.xml
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\HtmlAgilityPack.pdb
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\HtmlAgilityPack.xml
+D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\WatiN.Core.xml

@@ -80,7 +80,7 @@ namespace FencingScrapper
                     foreach (StateList state in _statelist)
                     {
                         string tempurl = "http://www.manta.com" + state.StateUrl;
-                        StateProvider.StartScrapFirstPage(tempurl,  ws, RowNum, ColNum);
+                        StateProvider.StartScrapFirstPage(state);
                         RowNum++;
                         break;
                     }

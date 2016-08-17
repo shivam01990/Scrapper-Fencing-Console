@@ -42,28 +42,7 @@ namespace FencingScrapper
         #endregion
 
         #region--Open IE URL--
-        //public static IE OpenIEURL(string URL)
-        //{
-        //    IE ie = new IE();
-        //    bool tryAgain = true;
-        //    while (tryAgain)
-        //    {
-
-        //        try
-        //        {
-        //            ie.GoTo(URL);
-        //            //Settings.WaitForCompleteTimeOut = 480;
-        //            System.Threading.Thread.Sleep(5000);
-        //            tryAgain = false;
-        //        }
-        //        catch (Exception ex)
-        //        {
-
-        //        }
-        //    }
-        //    return ie;
-        //}
-
+       
         public static string OpenIEURL(string URL)
         {
             string _Html = "";
@@ -76,7 +55,7 @@ namespace FencingScrapper
                 {
                     ie.GoTo(URL);
                     //Settings.WaitForCompleteTimeOut = 480;
-                    System.Threading.Thread.Sleep(5000);
+                    System.Threading.Thread.Sleep(7000);
                     tryAgain = false;
                     _Html = ie.Html;
                     ie.Close();
