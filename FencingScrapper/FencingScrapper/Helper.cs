@@ -55,7 +55,7 @@ namespace FencingScrapper
                 {
                     ie.GoTo(URL);
                     //Settings.WaitForCompleteTimeOut = 480;
-                    System.Threading.Thread.Sleep(15000);
+                    System.Threading.Thread.Sleep(14000);
                     tryAgain = false;
                     _Html = ie.Html;
                     ie.Close();

@@ -48,3 +48,63 @@ fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
 fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
 =============Import Start 17-Aug-16 4:23:20 PM============
 fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 17-Aug-16 4:52:45 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 17-Aug-16 5:34:35 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import End 17-Aug-16 5:35:32 PM============
+=============Import Start 17-Aug-16 5:35:57 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+Error:System.InvalidOperationException: A worksheet with this name already exists in the workbook : Finance - 17-Aug-16
+   at OfficeOpenXml.ExcelWorksheets.AddSheet(String Name, Boolean isChart, Nullable`1 chartType)
+   at OfficeOpenXml.ExcelWorksheets.Add(String Name)
+   at FencingScrapper.BrowseStates.GrabData() in d:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 52
+=============Import End 17-Aug-16 5:36:25 PM============
+=============Import Start 17-Aug-16 5:36:28 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 17-Aug-16 6:10:25 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+=============Import Start 17-Aug-16 6:11:02 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+Error:System.InvalidOperationException: A worksheet with this name already exists in the workbook : Finance - 17-Aug-16
+   at OfficeOpenXml.ExcelWorksheets.AddSheet(String Name, Boolean isChart, Nullable`1 chartType)
+   at OfficeOpenXml.ExcelWorksheets.Add(String Name)
+   at FencingScrapper.BrowseStates.GrabData() in d:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 52
+=============Import End 17-Aug-16 6:11:12 PM============
+=============Import Start 17-Aug-16 6:11:16 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+Error:System.ArgumentNullException: Value cannot be null.
+Parameter name: html
+   at HtmlAgilityPack.HtmlDocument.LoadHtml(String html) in C:\Users\stgrell\Source\Workspaces\htmlagilitypack\Trunk\HtmlAgilityPack\HtmlDocument.cs:line 670
+   at FencingScrapper.BrowseStates.GrabData() in d:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 29
+=============Import End 17-Aug-16 6:11:24 PM============
+=============Import Start 17-Aug-16 6:11:29 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+Error:System.InvalidOperationException: A worksheet with this name already exists in the workbook : Finance - 17-Aug-16
+   at OfficeOpenXml.ExcelWorksheets.AddSheet(String Name, Boolean isChart, Nullable`1 chartType)
+   at OfficeOpenXml.ExcelWorksheets.Add(String Name)
+   at FencingScrapper.BrowseStates.GrabData() in d:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 52
+=============Import End 17-Aug-16 6:11:43 PM============
+=============Import Start 17-Aug-16 6:11:50 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+Error:System.InvalidOperationException: A worksheet with this name already exists in the workbook : Finance - 17-Aug-16
+   at OfficeOpenXml.ExcelWorksheets.AddSheet(String Name, Boolean isChart, Nullable`1 chartType)
+   at OfficeOpenXml.ExcelWorksheets.Add(String Name)
+   at FencingScrapper.BrowseStates.GrabData() in d:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 52
+=============Import End 17-Aug-16 6:12:03 PM============
+=============Import Start 17-Aug-16 6:12:20 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+Error:System.InvalidOperationException: A worksheet with this name already exists in the workbook : Finance - 17-Aug-16
+   at OfficeOpenXml.ExcelWorksheets.AddSheet(String Name, Boolean isChart, Nullable`1 chartType)
+   at OfficeOpenXml.ExcelWorksheets.Add(String Name)
+   at FencingScrapper.BrowseStates.GrabData() in d:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 52
+=============Import End 17-Aug-16 6:12:38 PM============
+=============Import Start 17-Aug-16 6:12:50 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
+Error:System.InvalidOperationException: A worksheet with this name already exists in the workbook : Finance - 17-Aug-16
+   at OfficeOpenXml.ExcelWorksheets.AddSheet(String Name, Boolean isChart, Nullable`1 chartType)
+   at OfficeOpenXml.ExcelWorksheets.Add(String Name)
+   at FencingScrapper.BrowseStates.GrabData() in d:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\BrowseStates.cs:line 52
+=============Import End 17-Aug-16 6:13:07 PM============
+=============Import Start 17-Aug-16 6:13:18 PM============
+fetching data fromhttp://www.manta.com/mb_35_E00D37N7_000/fencing
