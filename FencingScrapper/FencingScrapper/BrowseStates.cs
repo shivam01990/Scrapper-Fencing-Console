@@ -87,7 +87,7 @@ namespace FencingScrapper
                     _statelist.Remove(_statelist.Where(S => S.StateName == "Delaware").FirstOrDefault());
                     _statelist.Remove(_statelist.Where(S => S.StateName == "District of Columbia").FirstOrDefault());
                     _statelist.Remove(_statelist.Where(S => S.StateName == "Florida").FirstOrDefault());
-
+                 
                     foreach (StateList state in _statelist)
                     {
                         string tempurl = "http://www.manta.com" + state.StateUrl;

@@ -9,6 +9,7 @@
     <Property Name="Email" Type="nvarchar(max)" />
     <Property Name="State" Type="nvarchar(max)" />
     <Property Name="ComanyURL" Type="nvarchar(max)" />
+    <Property Name="UpdatedOn" Type="datetime" />
   </EntityType>
   <EntityContainer Name="ScraperFencingModelStoreContainer">
     <EntitySet Name="Comany" EntityType="Self.Comany" Schema="dbo" store:Type="Tables" />

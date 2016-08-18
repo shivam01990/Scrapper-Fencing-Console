@@ -19,5 +19,6 @@ namespace FencingScrapper
         public string Email { get; set; }
         public string State { get; set; }
         public string ComanyURL { get; set; }
+        public Nullable<System.DateTime> UpdatedOn { get; set; }
     }
 }

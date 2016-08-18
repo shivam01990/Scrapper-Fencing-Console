@@ -12,7 +12,8 @@ namespace FencingScrapper
         static void Main(string[] args)
         {
             Helper.AddtoLogFile("=============Import Start " + DateTime.Now + "============");
-            BrowseStates.GrabData();
+            // BrowseStates.GrabData();
+            UpdateEmails.UpdateStart();
             Helper.AddtoLogFile("=============Import End " + DateTime.Now + "============");
         }
     }

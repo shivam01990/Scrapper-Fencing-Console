@@ -24,6 +24,7 @@ namespace FencingScrapper
                         temp.State = ud.State;
                         temp.Email = ud.Email;
                         temp.ComanyURL = ud.ComanyURL;
+                        temp.UpdatedOn = DateTime.Now;
                     }
                 }
                 else
@@ -39,6 +40,18 @@ namespace FencingScrapper
             }
 
             return ComanyID;
+        }
+
+        public static List<Comany> GetCompany()
+        {
+            var TagIds = new string[] { "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "District of Columbia", "Florida"
+            ,"Georgia","Hawaii","Idaho","Illinois"};
+            using (DBEntities db = new DBEntities())
+            {
+                return (from c in db.Comanies
+                        where !TagIds.Contains(c.State)
+                        select c).ToList();
+            }
         }
     }
 }
