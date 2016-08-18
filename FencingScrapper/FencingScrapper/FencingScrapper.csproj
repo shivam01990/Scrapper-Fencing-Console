@@ -90,6 +90,7 @@
       <DependentUpon>DB.edmx</DependentUpon>
     </Compile>
     <Compile Include="DBService.cs" />
+    <Compile Include="GenrateReport.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

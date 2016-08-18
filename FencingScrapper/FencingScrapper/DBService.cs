@@ -53,5 +53,14 @@ namespace FencingScrapper
                         select c).ToList();
             }
         }
+
+        public static List<Comany> GetAllCompany()
+        {
+           
+            using (DBEntities db = new DBEntities())
+            {  
+                return db.Comanies.ToList();
+            }
+        }
     }
 }

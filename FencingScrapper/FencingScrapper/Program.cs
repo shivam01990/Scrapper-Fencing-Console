@@ -13,7 +13,8 @@ namespace FencingScrapper
         {
             Helper.AddtoLogFile("=============Import Start " + DateTime.Now + "============");
             // BrowseStates.GrabData();
-            UpdateEmails.UpdateStart();
+            //UpdateEmails.UpdateStart();
+            GenrateReport.StartGenerate();
             Helper.AddtoLogFile("=============Import End " + DateTime.Now + "============");
         }
     }
