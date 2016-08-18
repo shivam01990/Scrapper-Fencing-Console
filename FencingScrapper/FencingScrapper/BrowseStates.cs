@@ -78,6 +78,15 @@ namespace FencingScrapper
                     RowNum++;
 
                     _statelist.Remove(_statelist.Where(S => S.StateName == "Alabama").FirstOrDefault());
+                    _statelist.Remove(_statelist.Where(S => S.StateName == "Alaska").FirstOrDefault());
+                    _statelist.Remove(_statelist.Where(S => S.StateName == "Arizona").FirstOrDefault());
+                    _statelist.Remove(_statelist.Where(S => S.StateName == "Arkansas").FirstOrDefault());
+                    _statelist.Remove(_statelist.Where(S => S.StateName == "California").FirstOrDefault());
+                    _statelist.Remove(_statelist.Where(S => S.StateName == "Colorado").FirstOrDefault());
+                    _statelist.Remove(_statelist.Where(S => S.StateName == "Connecticut").FirstOrDefault());
+                    _statelist.Remove(_statelist.Where(S => S.StateName == "Delaware").FirstOrDefault());
+                    _statelist.Remove(_statelist.Where(S => S.StateName == "District of Columbia").FirstOrDefault());
+                    _statelist.Remove(_statelist.Where(S => S.StateName == "Florida").FirstOrDefault());
 
                     foreach (StateList state in _statelist)
                     {

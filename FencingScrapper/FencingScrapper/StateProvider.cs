@@ -118,7 +118,7 @@ namespace FencingScrapper
                         var templink = tempdoc.DocumentNode.SelectSingleNode("//a[@class='media-heading text-primary h4']");
                         string link = "http://www.manta.com" + templink.Attributes["href"].Value;
                         temp.ComanyURL = link;
-                        temp.CompanyName = templink.InnerText.Replace("\n", "").Trim();
+                        temp.CompanyName = templink.InnerText.Replace("\n", "").Replace("&amp;", "&").Trim();
                         temp.State = StateName;
                         try
                         {
@@ -135,7 +135,7 @@ namespace FencingScrapper
                             }
                         }
                         catch { }
-                        GetCompanyEmail(temp);
+                        //GetCompanyEmail(temp);
                         _lstCompany.Add(temp);
                     }
                     catch { }
