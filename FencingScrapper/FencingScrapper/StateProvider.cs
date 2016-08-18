@@ -24,24 +24,28 @@ namespace FencingScrapper
                 doc.LoadHtml(outhtml);
 
                 int totalPages = 1;
-                HtmlNode LastPageNode = doc.DocumentNode.SelectNodes("//ul[@class='pagination']//li//a").LastOrDefault();
-                if (LastPageNode != null)
+                try
                 {
-                    string link = LastPageNode.Attributes["href"].Value;
-                    var parsedQuery = HttpUtility.ParseQueryString(link);
-                    int.TryParse(parsedQuery[0], out totalPages);
+                    HtmlNode LastPageNode = doc.DocumentNode.SelectNodes("//ul[@class='pagination']//li//a").LastOrDefault();
+                    if (LastPageNode != null)
+                    {
+                        string link = LastPageNode.Attributes["href"].Value;
+                        var parsedQuery = HttpUtility.ParseQueryString(link);
+                        int.TryParse(parsedQuery[0], out totalPages);
+                    }
                 }
+                catch { }
 
-                //List<Comany> _lstCompany = GetCompanyNavigationLink(doc, State.StateName);
+                List<Comany> _lstCompany = GetCompanyNavigationLink(doc, State.StateName);
 
-                //foreach (Comany item in _lstCompany)
-                //{
-                //    try
-                //    {
-                //        DBService.SaveComany(item);
-                //    }
-                //    catch { }
-                //}
+                foreach (Comany item in _lstCompany)
+                {
+                    try
+                    {
+                        DBService.SaveComany(item);
+                    }
+                    catch { }
+                }
 
                 for (int i = 2; i <= totalPages; i++)
                 {

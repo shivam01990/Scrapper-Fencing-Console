@@ -15,7 +15,6 @@ D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\F
 D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\EntityFramework.SqlServer.dll
 D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\EntityFramework.xml
 D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\EntityFramework.SqlServer.xml
-D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\obj\Debug\FencingScrapper.csprojResolveAssemblyReference.cache
 D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\FencingScrapper.exe.config
 D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\obj\Debug\FencingScrapper.exe
 D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\obj\Debug\FencingScrapper.pdb
@@ -33,3 +32,4 @@ D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debu
 D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\HtmlAgilityPack.xml
 D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\bin\Debug\WatiN.Core.xml
 D:\Shivam Docs\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\obj\Debug\FencingScrapper.csprojResolveAssemblyReference.cache
+D:\Development Area\Bernhard Mehl App\Scrapper-Fencing-Console\FencingScrapper\FencingScrapper\obj\Debug\FencingScrapper.csprojResolveAssemblyReference.cache

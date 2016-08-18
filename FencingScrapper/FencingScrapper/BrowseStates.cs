@@ -76,7 +76,9 @@ namespace FencingScrapper
                     ws.Cells[RowNum, ColNum + 1, RowNum, ColNum + 1].Style.Font.Color.SetColor(Color.White);
                     ws.Cells[RowNum, ColNum + 1, RowNum, ColNum + 1].Style.HorizontalAlignment = ExcelHorizontalAlignment.Center; // Aligmnet is center
                     RowNum++;
-                    
+
+                    _statelist.Remove(_statelist.Where(S => S.StateName == "Alabama").FirstOrDefault());
+
                     foreach (StateList state in _statelist)
                     {
                         string tempurl = "http://www.manta.com" + state.StateUrl;
