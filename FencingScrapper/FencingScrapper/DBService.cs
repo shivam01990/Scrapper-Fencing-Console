@@ -48,9 +48,11 @@ namespace FencingScrapper
             ,"Georgia","Hawaii","Idaho","Illinois"};
             using (DBEntities db = new DBEntities())
             {
-                return (from c in db.Comanies
-                        where !TagIds.Contains(c.State)
-                        select c).ToList();
+                //return (from c in db.Comanies
+                //        where !TagIds.Contains(c.State)
+                //        select c).ToList();
+
+                return (from c in db.Comanies where c.ComanyID > 5500 select c).ToList();
             }
         }
 
